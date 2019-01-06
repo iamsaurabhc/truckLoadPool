@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "truckLoadPool-executor",
+    "name": "truckLoadPool",
+    "region": "us-east-2"
+  },
+  "api": {
+    "id": "1jsundfd1f",
+    "module": "index"
+  }
+}

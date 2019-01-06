@@ -1,22 +1,40 @@
 {
-  "name": "truckloadpool",
-  "version": "1.0.0",
-  "description": "npm app for truckloadpool",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/iamsaurabhc/truckLoadPool.git"
-  },
-  "author": "Saurabh C",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/iamsaurabhc/truckLoadPool/issues"
-  },
-  "homepage": "https://github.com/iamsaurabhc/truckLoadPool#readme",
-  "dependencies": {
-    "express": "^4.16.4"
-  }
+    "title": "Truck Load Pool",
+    "name": "truckLoadPool",
+    "version": "1.0.0",
+    "description": "A Truck load optimization company",
+    "homepage": "https://github.com/iamsaurabhc/truckLoadPool",
+    "license": "MIT",
+    "author": "Saurabh",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/iamsaurabhc/truckLoadPool"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.6.3",
+        "aws-api-gateway-client": "^0.2.16",
+        "aws-sdk": "^2.384.0",
+        "body-parser": "^1.18.3",
+        "bootstrap": "4.2.1",
+        "claudia": "^5.3.0",
+        "claudia-api-builder": "^4.1.1",
+        "express": "^4.16.4",
+        "jquery": "3.3.1",
+        "simple-line-icons": "^2.4.1",
+        "uniqid": "^5.0.3"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.3",
+        "gulp": "4.0.0",
+        "gulp-autoprefixer": "6.0.0",
+        "gulp-clean-css": "4.0.0",
+        "gulp-header": "2.0.7",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "1.4.0",
+        "gulp-sass": "4.0.2"
+    },
+    "scripts": {
+        "gulp": "gulp",
+        "minify": "gulp minify"
+    }
 }
