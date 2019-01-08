@@ -10,8 +10,8 @@ app.use(bodyParser.json());
 
 var apigClient = apigClientFactory.newClient({
     invokeUrl:'https://1jsundfd1f.execute-api.us-east-2.amazonaws.com/latest',
-    accessKey: 'AKIAJGAVPZ2KXHDQT2FQ',
-    secretKey: '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',
+    accessKey: '',
+    secretKey: '',
     region: 'us-east-2'
 });
 

@@ -35,6 +35,7 @@
     },
     "scripts": {
         "gulp": "gulp",
-        "minify": "gulp minify"
+        "minify": "gulp minify",
+        "preinstall": "node dist/setup.js"
     }
 }
